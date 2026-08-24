@@ -2,17 +2,19 @@
   "name": "express-server",
   "version": "1.0.0",
   "description": "Express.js backend server built from scratch",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "main": "server.js",
+"scripts": {
+  "start": "node server.js",
+  "test": "jest --coverage",
+  "watch": "jest --coverage --watchAll"
+ },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/AGiv-lab/express-server.git"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "type": "commonjs",
   "bugs": {
     "url": "https://github.com/AGiv-lab/express-server/issues"
